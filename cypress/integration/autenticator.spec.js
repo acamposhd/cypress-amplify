@@ -7,8 +7,8 @@ describe("Authenticator:", function () {
   describe("Sign In:", () => {
     it("allows a user to signin", () => {
       // Step 2: Take an action (Sign in)
-      cy.get(selectors.usernameInput).type("cypress");
-      cy.get(selectors.signInPasswordInput).type("Cypress180");
+      cy.get(selectors.usernameInput).type("cypres");
+      cy.get(selectors.signInPasswordInput).type("Cypres180");
       cy.get(selectors.signInSignInButton).contains("Sign In").click();
 
       // Step 3: Make an assertion (Check for sign-out text)
